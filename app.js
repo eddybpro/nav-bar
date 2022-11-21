@@ -5,7 +5,7 @@ const li_el = list.querySelectorAll('li');
 
 
 menu.addEventListener('click',()=>{
-    list.classList.add('active')
+    list.classList.toggle('active')
     menu.classList.toggle('fa-times')
 })
 

@@ -85,12 +85,13 @@ header .menu i{
         text-align: center;
         padding-top:2.5rem ;
         background-color: rgba(0, 0, 0, 0.7);
-        
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .2s linear;
     }
 
     header nav .active{  
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: .2s linear;
     }
 
     header nav .active li{
@@ -107,6 +108,7 @@ header .menu i{
         font-size: 1.5rem;
         cursor: pointer;
         color: #222;
+        transition: .2s linear;
     }
     
     header .menu .fa-times{
